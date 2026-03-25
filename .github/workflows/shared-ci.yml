@@ -7,7 +7,4 @@ jobs:
   quality-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-
-      - name: Run Basic CI Check
-        run: echo "Running Shared CI Quality Check"
+      - run: echo "Shared workflow updated!"
